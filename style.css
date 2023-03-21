@@ -1,0 +1,102 @@
+.navbar-expand-lg .navbar-collapse{
+    width: 100%;
+  }
+
+  .one h1,h2,p{
+    text-align: center;
+  }
+  .one h1,h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+  }
+  .one h1{
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  .one h2{
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .one p{
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  }
+
+  .one,.two{
+    background-color: aqua;
+  }
+
+  .two input{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 9px;
+    margin: 5px;
+  }
+
+  .two .btn-primary{
+    width: 40%;
+  }
+
+
+  .four{
+    display: flex;
+  }
+
+  .three{
+    background-color: aqua;
+  }
+
+  .three .card{
+    padding: 10px;
+    margin: 80px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+
+  }
+
+  .card p{
+    text-align: justify;
+  }
+
+  .three .card .icon img{
+    max-width: 50px;
+  }
+
+  .three .card .icon{
+    margin-bottom: 10px;
+  }
+
+  .three .card:hover{
+    scale: 1.15;
+    transition: 0.6s;
+  }
+  .top .navbar-expand-lg{
+    padding: 2px;
+  }
+
+  .top .navbar-expand-lg .navbar-brand{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+
+  }
+
+  .top .navbar-expand-lg li a{
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  .top .navbar-expand-lg li a:hover{
+    background: linear-gradient(to right, #bbbba8 0%, #e50676 100%);
+    
+    border-radius: 50px;
+  }
+
+  /* .top .navbar-expand-lg li .active{
+    background: linear-gradient(to right, #bbbba8 0%, #e50676 100%);
+  } */
